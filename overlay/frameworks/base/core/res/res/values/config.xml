@@ -91,7 +91,8 @@
          if the sensor HAL correctly handles the proximity sensor as a wake-up source.
          Otherwise, the device may fail to wake out of suspend reliably.
          The default is false. -->
-    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+    
+     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
         <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
     <!-- Hardware keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
