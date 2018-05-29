@@ -15,7 +15,7 @@
 #
 
 # call xiaomi custom
-$(call inherit-product, vendor/xiaomi/custom/XiaomiCustom.mk)
+$(call inherit-product, vendor/XiaomiCustom/XiaomiCustom.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
